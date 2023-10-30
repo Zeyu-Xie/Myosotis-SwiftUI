@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF273C172AD9A54F00F1E204 /* Page_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF273C162AD9A54F00F1E204 /* Page_Stack.swift */; };
+		FF273C1A2AD9A75B00F1E204 /* Page_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF273C192AD9A75B00F1E204 /* Page_HStack.swift */; };
+		FF273C1C2AD9A95400F1E204 /* Page_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF273C1B2AD9A95400F1E204 /* Page_ZStack.swift */; };
+		FF62FAB52A96410800F18AD6 /* Myosotis_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62FAB42A96410800F18AD6 /* Myosotis_SwiftUIApp.swift */; };
+		FF62FAB72A96410800F18AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62FAB62A96410800F18AD6 /* ContentView.swift */; };
+		FF62FAB92A96410900F18AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF62FAB82A96410900F18AD6 /* Assets.xcassets */; };
+		FF62FABC2A96410900F18AD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF62FABB2A96410900F18AD6 /* Preview Assets.xcassets */; };
+		FF62FAC72A96410900F18AD6 /* Myosotis_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62FAC62A96410900F18AD6 /* Myosotis_SwiftUITests.swift */; };
+		FF62FAD12A96410900F18AD6 /* Myosotis_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62FAD02A96410900F18AD6 /* Myosotis_SwiftUIUITests.swift */; };
+		FF62FAD32A96410900F18AD6 /* Myosotis_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62FAD22A96410900F18AD6 /* Myosotis_SwiftUIUITestsLaunchTests.swift */; };
+		FF9FDBC32AD93DBB00EFD808 /* Page_BaseElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FDBC22AD93DBB00EFD808 /* Page_BaseElementView.swift */; };
+		FF9FDBC62AD93EC600EFD808 /* Page_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FDBC52AD93EC600EFD808 /* Page_Image.swift */; };
+		FFAC257F2AD7C5ED004A521A /* Page_Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC257E2AD7C5ED004A521A /* Page_Shapes.swift */; };
+		FFAC25822AD7C875004A521A /* Page_OnTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC25812AD7C875004A521A /* Page_OnTapGesture.swift */; };
+		FFAC25842AD7CC67004A521A /* Page_OnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC25832AD7CC67004A521A /* Page_OnAppear.swift */; };
+		FFAC25862AD7CDD3004A521A /* Page_OnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC25852AD7CDD3004A521A /* Page_OnDisappear.swift */; };
+		FFAC25892AD7CEC3004A521A /* Page_NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC25882AD7CEC3004A521A /* Page_NavigationView.swift */; };
+		FFAE98012AE758810062EF1B /* Page_Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE98002AE758810062EF1B /* Page_Bool.swift */; };
+		FFAE98032AE7589C0062EF1B /* Page_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE98022AE7589C0062EF1B /* Page_Date.swift */; };
+		FFAE98052AE758B30062EF1B /* Page_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE98042AE758B30062EF1B /* Page_Array.swift */; };
+		FFAE98072AE758D60062EF1B /* Page_Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE98062AE758D60062EF1B /* Page_Dictionary.swift */; };
+		FFAE98092AE758F20062EF1B /* Page_Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAE98082AE758F20062EF1B /* Page_Set.swift */; };
+		FFB54ED72AD7D4AD00BAF06D /* Page_NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB54ED62AD7D4AD00BAF06D /* Page_NavigationStack.swift */; };
+		FFB54EDA2AD7D62D00BAF06D /* Page_NavigationStack_Usage_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB54ED92AD7D62D00BAF06D /* Page_NavigationStack_Usage_1.swift */; };
+		FFB54EDC2AD7D7BD00BAF06D /* Page_NavigationStack_Usage_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB54EDB2AD7D7BD00BAF06D /* Page_NavigationStack_Usage_2.swift */; };
+		FFB54EDE2AD7DB5A00BAF06D /* Page_NavigationStack_Usage_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB54EDD2AD7DB5A00BAF06D /* Page_NavigationStack_Usage_3.swift */; };
+		FFB54EE02AD7DBF000BAF06D /* Page_NavigationStack_Usage_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB54EDF2AD7DBF000BAF06D /* Page_NavigationStack_Usage_4.swift */; };
+		FFE22D482AE6AC8B00E88F55 /* Page_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE22D472AE6AC8B00E88F55 /* Page_String.swift */; };
+		FFE22D4A2AE6ADDE00E88F55 /* Page_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE22D492AE6ADDE00E88F55 /* Page_Number.swift */; };
+		FFE6F7942AD979B200AFF365 /* Page_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F7932AD979B200AFF365 /* Page_Text.swift */; };
+		FFE6F7962AD9962A00AFF365 /* Page_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F7952AD9962A00AFF365 /* Page_Button.swift */; };
+		FFE6F7982AD99A8900AFF365 /* Page_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F7972AD99A8900AFF365 /* Page_Label.swift */; };
+		FFF3EB6E2AE64B0C00CAB5ED /* Page_StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3EB6D2AE64B0C00CAB5ED /* Page_StatusBar.swift */; };
+		FFF543122AE64C310098A229 /* Page_Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF543112AE64C310098A229 /* Page_Tabbar.swift */; };
+		FFF543152AE64FA80098A229 /* Page_Tabbar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF543142AE64FA80098A229 /* Page_Tabbar_1.swift */; };
+		FFF543172AE650BB0098A229 /* Page_Tabbar_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF543162AE650BB0098A229 /* Page_Tabbar_2.swift */; };
+		FFF543192AE650D40098A229 /* Page_Tabbar_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF543182AE650D40098A229 /* Page_Tabbar_3.swift */; };
+		FFFDACFE2AD772F600989D11 /* Page_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDACFD2AD772F600989D11 /* Page_VStack.swift */; };
+		FFFDAD012AD774C600989D11 /* Page_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDAD002AD774C600989D11 /* Page_Settings.swift */; };
+		FFFDAD062AD776B100989D11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFDAD052AD776B100989D11 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF62FAC32A96410900F18AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF62FAA92A96410800F18AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF62FAB02A96410800F18AD6;
+			remoteInfo = "Myosotis SwiftUI";
+		};
+		FF62FACD2A96410900F18AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF62FAA92A96410800F18AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF62FAB02A96410800F18AD6;
+			remoteInfo = "Myosotis SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF273C162AD9A54F00F1E204 /* Page_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Stack.swift; sourceTree = "<group>"; };
+		FF273C192AD9A75B00F1E204 /* Page_HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_HStack.swift; sourceTree = "<group>"; };
+		FF273C1B2AD9A95400F1E204 /* Page_ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_ZStack.swift; sourceTree = "<group>"; };
+		FF62FAB12A96410800F18AD6 /* Myosotis SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myosotis SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF62FAB42A96410800F18AD6 /* Myosotis_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myosotis_SwiftUIApp.swift; sourceTree = "<group>"; };
+		FF62FAB62A96410800F18AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF62FAB82A96410900F18AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF62FABB2A96410900F18AD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF62FABD2A96410900F18AD6 /* Myosotis_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Myosotis_SwiftUI.entitlements; sourceTree = "<group>"; };
+		FF62FAC22A96410900F18AD6 /* Myosotis SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myosotis SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF62FAC62A96410900F18AD6 /* Myosotis_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myosotis_SwiftUITests.swift; sourceTree = "<group>"; };
+		FF62FACC2A96410900F18AD6 /* Myosotis SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myosotis SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF62FAD02A96410900F18AD6 /* Myosotis_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myosotis_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		FF62FAD22A96410900F18AD6 /* Myosotis_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myosotis_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF9FDBC22AD93DBB00EFD808 /* Page_BaseElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_BaseElementView.swift; sourceTree = "<group>"; };
+		FF9FDBC52AD93EC600EFD808 /* Page_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Image.swift; sourceTree = "<group>"; };
+		FFAC257E2AD7C5ED004A521A /* Page_Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Shapes.swift; sourceTree = "<group>"; };
+		FFAC25812AD7C875004A521A /* Page_OnTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_OnTapGesture.swift; sourceTree = "<group>"; };
+		FFAC25832AD7CC67004A521A /* Page_OnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_OnAppear.swift; sourceTree = "<group>"; };
+		FFAC25852AD7CDD3004A521A /* Page_OnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_OnDisappear.swift; sourceTree = "<group>"; };
+		FFAC25882AD7CEC3004A521A /* Page_NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationView.swift; sourceTree = "<group>"; };
+		FFAE98002AE758810062EF1B /* Page_Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Bool.swift; sourceTree = "<group>"; };
+		FFAE98022AE7589C0062EF1B /* Page_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Date.swift; sourceTree = "<group>"; };
+		FFAE98042AE758B30062EF1B /* Page_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Array.swift; sourceTree = "<group>"; };
+		FFAE98062AE758D60062EF1B /* Page_Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Dictionary.swift; sourceTree = "<group>"; };
+		FFAE98082AE758F20062EF1B /* Page_Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Set.swift; sourceTree = "<group>"; };
+		FFB54ED62AD7D4AD00BAF06D /* Page_NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationStack.swift; sourceTree = "<group>"; };
+		FFB54ED92AD7D62D00BAF06D /* Page_NavigationStack_Usage_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationStack_Usage_1.swift; sourceTree = "<group>"; };
+		FFB54EDB2AD7D7BD00BAF06D /* Page_NavigationStack_Usage_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationStack_Usage_2.swift; sourceTree = "<group>"; };
+		FFB54EDD2AD7DB5A00BAF06D /* Page_NavigationStack_Usage_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationStack_Usage_3.swift; sourceTree = "<group>"; };
+		FFB54EDF2AD7DBF000BAF06D /* Page_NavigationStack_Usage_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_NavigationStack_Usage_4.swift; sourceTree = "<group>"; };
+		FFE22D472AE6AC8B00E88F55 /* Page_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_String.swift; sourceTree = "<group>"; };
+		FFE22D492AE6ADDE00E88F55 /* Page_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Number.swift; sourceTree = "<group>"; };
+		FFE6F7932AD979B200AFF365 /* Page_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Text.swift; sourceTree = "<group>"; };
+		FFE6F7952AD9962A00AFF365 /* Page_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Button.swift; sourceTree = "<group>"; };
+		FFE6F7972AD99A8900AFF365 /* Page_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Label.swift; sourceTree = "<group>"; };
+		FFF3EB6D2AE64B0C00CAB5ED /* Page_StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_StatusBar.swift; sourceTree = "<group>"; };
+		FFF543112AE64C310098A229 /* Page_Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Tabbar.swift; sourceTree = "<group>"; };
+		FFF543142AE64FA80098A229 /* Page_Tabbar_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Tabbar_1.swift; sourceTree = "<group>"; };
+		FFF543162AE650BB0098A229 /* Page_Tabbar_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Tabbar_2.swift; sourceTree = "<group>"; };
+		FFF543182AE650D40098A229 /* Page_Tabbar_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Tabbar_3.swift; sourceTree = "<group>"; };
+		FFFDACFD2AD772F600989D11 /* Page_VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_VStack.swift; sourceTree = "<group>"; };
+		FFFDAD002AD774C600989D11 /* Page_Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Settings.swift; sourceTree = "<group>"; };
+		FFFDAD052AD776B100989D11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF62FAAE2A96410800F18AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FABF2A96410900F18AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FAC92A96410900F18AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF273C182AD9A74700F1E204 /* Page_Stack */ = {
+			isa = PBXGroup;
+			children = (
+				FF273C192AD9A75B00F1E204 /* Page_HStack.swift */,
+				FFFDACFD2AD772F600989D11 /* Page_VStack.swift */,
+				FF273C1B2AD9A95400F1E204 /* Page_ZStack.swift */,
+			);
+			path = Page_Stack;
+			sourceTree = "<group>";
+		};
+		FF62FAA82A96410800F18AD6 = {
+			isa = PBXGroup;
+			children = (
+				FF62FAB32A96410800F18AD6 /* Myosotis SwiftUI */,
+				FF62FAC52A96410900F18AD6 /* Myosotis SwiftUITests */,
+				FF62FACF2A96410900F18AD6 /* Myosotis SwiftUIUITests */,
+				FF62FAB22A96410800F18AD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF62FAB22A96410800F18AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF62FAB12A96410800F18AD6 /* Myosotis SwiftUI.app */,
+				FF62FAC22A96410900F18AD6 /* Myosotis SwiftUITests.xctest */,
+				FF62FACC2A96410900F18AD6 /* Myosotis SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF62FAB32A96410800F18AD6 /* Myosotis SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FFE22D432AE6AB6C00E88F55 /* Base Data */,
+				FF9FDBC12AD93D9700EFD808 /* Base Element View */,
+				FFAC25872AD7CEA4004A521A /* Global Elements */,
+				FFAC25802AD7C840004A521A /* Element General Modifiers */,
+				FFAC257D2AD7C5DC004A521A /* Shapes */,
+				FFFDAD042AD7769D00989D11 /* Delegate */,
+				FFFDACFF2AD774A400989D11 /* Settings */,
+				FFFDACFC2AD772D500989D11 /* Views */,
+				FF62FAB82A96410900F18AD6 /* Assets.xcassets */,
+				FF62FAB62A96410800F18AD6 /* ContentView.swift */,
+				FF62FAB42A96410800F18AD6 /* Myosotis_SwiftUIApp.swift */,
+				FF62FABD2A96410900F18AD6 /* Myosotis_SwiftUI.entitlements */,
+				FF62FABA2A96410900F18AD6 /* Preview Content */,
+			);
+			path = "Myosotis SwiftUI";
+			sourceTree = "<group>";
+		};
+		FF62FABA2A96410900F18AD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF62FABB2A96410900F18AD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF62FAC52A96410900F18AD6 /* Myosotis SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF62FAC62A96410900F18AD6 /* Myosotis_SwiftUITests.swift */,
+			);
+			path = "Myosotis SwiftUITests";
+			sourceTree = "<group>";
+		};
+		FF62FACF2A96410900F18AD6 /* Myosotis SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF62FAD02A96410900F18AD6 /* Myosotis_SwiftUIUITests.swift */,
+				FF62FAD22A96410900F18AD6 /* Myosotis_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "Myosotis SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		FF9FDBC12AD93D9700EFD808 /* Base Element View */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FDBC22AD93DBB00EFD808 /* Page_BaseElementView.swift */,
+				FF9FDBC42AD93EA800EFD808 /* Page_BaseElementView */,
+			);
+			path = "Base Element View";
+			sourceTree = "<group>";
+		};
+		FF9FDBC42AD93EA800EFD808 /* Page_BaseElementView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FDBC52AD93EC600EFD808 /* Page_Image.swift */,
+				FFE6F7932AD979B200AFF365 /* Page_Text.swift */,
+				FFE6F7952AD9962A00AFF365 /* Page_Button.swift */,
+				FFE6F7972AD99A8900AFF365 /* Page_Label.swift */,
+				FF273C162AD9A54F00F1E204 /* Page_Stack.swift */,
+				FF273C182AD9A74700F1E204 /* Page_Stack */,
+			);
+			path = Page_BaseElementView;
+			sourceTree = "<group>";
+		};
+		FFAC257D2AD7C5DC004A521A /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC257E2AD7C5ED004A521A /* Page_Shapes.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		FFAC25802AD7C840004A521A /* Element General Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC25812AD7C875004A521A /* Page_OnTapGesture.swift */,
+				FFAC25832AD7CC67004A521A /* Page_OnAppear.swift */,
+				FFAC25852AD7CDD3004A521A /* Page_OnDisappear.swift */,
+			);
+			path = "Element General Modifiers";
+			sourceTree = "<group>";
+		};
+		FFAC25872AD7CEA4004A521A /* Global Elements */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC25882AD7CEC3004A521A /* Page_NavigationView.swift */,
+				FFF3EB6D2AE64B0C00CAB5ED /* Page_StatusBar.swift */,
+				FFF543112AE64C310098A229 /* Page_Tabbar.swift */,
+				FFF543132AE64F800098A229 /* Page_Tabbar */,
+				FFB54ED62AD7D4AD00BAF06D /* Page_NavigationStack.swift */,
+				FFB54ED82AD7D61A00BAF06D /* Page_NavigationStack */,
+			);
+			path = "Global Elements";
+			sourceTree = "<group>";
+		};
+		FFB54ED82AD7D61A00BAF06D /* Page_NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				FFB54ED92AD7D62D00BAF06D /* Page_NavigationStack_Usage_1.swift */,
+				FFB54EDD2AD7DB5A00BAF06D /* Page_NavigationStack_Usage_3.swift */,
+				FFB54EDF2AD7DBF000BAF06D /* Page_NavigationStack_Usage_4.swift */,
+				FFB54EDB2AD7D7BD00BAF06D /* Page_NavigationStack_Usage_2.swift */,
+			);
+			path = Page_NavigationStack;
+			sourceTree = "<group>";
+		};
+		FFE22D432AE6AB6C00E88F55 /* Base Data */ = {
+			isa = PBXGroup;
+			children = (
+				FFE22D472AE6AC8B00E88F55 /* Page_String.swift */,
+				FFAE98002AE758810062EF1B /* Page_Bool.swift */,
+				FFAE98022AE7589C0062EF1B /* Page_Date.swift */,
+				FFAE98042AE758B30062EF1B /* Page_Array.swift */,
+				FFAE98062AE758D60062EF1B /* Page_Dictionary.swift */,
+				FFAE98082AE758F20062EF1B /* Page_Set.swift */,
+				FFE22D492AE6ADDE00E88F55 /* Page_Number.swift */,
+			);
+			path = "Base Data";
+			sourceTree = "<group>";
+		};
+		FFF543132AE64F800098A229 /* Page_Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FFF543142AE64FA80098A229 /* Page_Tabbar_1.swift */,
+				FFF543162AE650BB0098A229 /* Page_Tabbar_2.swift */,
+				FFF543182AE650D40098A229 /* Page_Tabbar_3.swift */,
+			);
+			path = Page_Tabbar;
+			sourceTree = "<group>";
+		};
+		FFFDACFC2AD772D500989D11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFFDACFF2AD774A400989D11 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FFFDAD002AD774C600989D11 /* Page_Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FFFDAD042AD7769D00989D11 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFFDAD052AD776B100989D11 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF62FAB02A96410800F18AD6 /* Myosotis SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF62FAD62A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUI" */;
+			buildPhases = (
+				FF62FAAD2A96410800F18AD6 /* Sources */,
+				FF62FAAE2A96410800F18AD6 /* Frameworks */,
+				FF62FAAF2A96410800F18AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myosotis SwiftUI";
+			productName = "Myosotis SwiftUI";
+			productReference = FF62FAB12A96410800F18AD6 /* Myosotis SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF62FAC12A96410900F18AD6 /* Myosotis SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF62FAD92A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUITests" */;
+			buildPhases = (
+				FF62FABE2A96410900F18AD6 /* Sources */,
+				FF62FABF2A96410900F18AD6 /* Frameworks */,
+				FF62FAC02A96410900F18AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF62FAC42A96410900F18AD6 /* PBXTargetDependency */,
+			);
+			name = "Myosotis SwiftUITests";
+			productName = "Myosotis SwiftUITests";
+			productReference = FF62FAC22A96410900F18AD6 /* Myosotis SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF62FACB2A96410900F18AD6 /* Myosotis SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF62FADC2A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUIUITests" */;
+			buildPhases = (
+				FF62FAC82A96410900F18AD6 /* Sources */,
+				FF62FAC92A96410900F18AD6 /* Frameworks */,
+				FF62FACA2A96410900F18AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF62FACE2A96410900F18AD6 /* PBXTargetDependency */,
+			);
+			name = "Myosotis SwiftUIUITests";
+			productName = "Myosotis SwiftUIUITests";
+			productReference = FF62FACC2A96410900F18AD6 /* Myosotis SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF62FAA92A96410800F18AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF62FAB02A96410800F18AD6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FF62FAC12A96410900F18AD6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF62FAB02A96410800F18AD6;
+					};
+					FF62FACB2A96410900F18AD6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF62FAB02A96410800F18AD6;
+					};
+				};
+			};
+			buildConfigurationList = FF62FAAC2A96410800F18AD6 /* Build configuration list for PBXProject "Myosotis SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF62FAA82A96410800F18AD6;
+			productRefGroup = FF62FAB22A96410800F18AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF62FAB02A96410800F18AD6 /* Myosotis SwiftUI */,
+				FF62FAC12A96410900F18AD6 /* Myosotis SwiftUITests */,
+				FF62FACB2A96410900F18AD6 /* Myosotis SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF62FAAF2A96410800F18AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF62FABC2A96410900F18AD6 /* Preview Assets.xcassets in Resources */,
+				FF62FAB92A96410900F18AD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FAC02A96410900F18AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FACA2A96410900F18AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF62FAAD2A96410800F18AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAE98092AE758F20062EF1B /* Page_Set.swift in Sources */,
+				FFF543192AE650D40098A229 /* Page_Tabbar_3.swift in Sources */,
+				FFE22D482AE6AC8B00E88F55 /* Page_String.swift in Sources */,
+				FFAC25842AD7CC67004A521A /* Page_OnAppear.swift in Sources */,
+				FFB54ED72AD7D4AD00BAF06D /* Page_NavigationStack.swift in Sources */,
+				FFAE98032AE7589C0062EF1B /* Page_Date.swift in Sources */,
+				FFF543152AE64FA80098A229 /* Page_Tabbar_1.swift in Sources */,
+				FFFDAD062AD776B100989D11 /* AppDelegate.swift in Sources */,
+				FF273C172AD9A54F00F1E204 /* Page_Stack.swift in Sources */,
+				FFAE98052AE758B30062EF1B /* Page_Array.swift in Sources */,
+				FF62FAB72A96410800F18AD6 /* ContentView.swift in Sources */,
+				FF9FDBC62AD93EC600EFD808 /* Page_Image.swift in Sources */,
+				FF273C1C2AD9A95400F1E204 /* Page_ZStack.swift in Sources */,
+				FF273C1A2AD9A75B00F1E204 /* Page_HStack.swift in Sources */,
+				FFAC25822AD7C875004A521A /* Page_OnTapGesture.swift in Sources */,
+				FFAC257F2AD7C5ED004A521A /* Page_Shapes.swift in Sources */,
+				FFAC25862AD7CDD3004A521A /* Page_OnDisappear.swift in Sources */,
+				FFE6F7962AD9962A00AFF365 /* Page_Button.swift in Sources */,
+				FFF3EB6E2AE64B0C00CAB5ED /* Page_StatusBar.swift in Sources */,
+				FFF543122AE64C310098A229 /* Page_Tabbar.swift in Sources */,
+				FFAC25892AD7CEC3004A521A /* Page_NavigationView.swift in Sources */,
+				FFAE98012AE758810062EF1B /* Page_Bool.swift in Sources */,
+				FFB54EDE2AD7DB5A00BAF06D /* Page_NavigationStack_Usage_3.swift in Sources */,
+				FFAE98072AE758D60062EF1B /* Page_Dictionary.swift in Sources */,
+				FFF543172AE650BB0098A229 /* Page_Tabbar_2.swift in Sources */,
+				FFE6F7942AD979B200AFF365 /* Page_Text.swift in Sources */,
+				FFB54EDA2AD7D62D00BAF06D /* Page_NavigationStack_Usage_1.swift in Sources */,
+				FF9FDBC32AD93DBB00EFD808 /* Page_BaseElementView.swift in Sources */,
+				FFB54EDC2AD7D7BD00BAF06D /* Page_NavigationStack_Usage_2.swift in Sources */,
+				FFB54EE02AD7DBF000BAF06D /* Page_NavigationStack_Usage_4.swift in Sources */,
+				FFE6F7982AD99A8900AFF365 /* Page_Label.swift in Sources */,
+				FFFDACFE2AD772F600989D11 /* Page_VStack.swift in Sources */,
+				FF62FAB52A96410800F18AD6 /* Myosotis_SwiftUIApp.swift in Sources */,
+				FFFDAD012AD774C600989D11 /* Page_Settings.swift in Sources */,
+				FFE22D4A2AE6ADDE00E88F55 /* Page_Number.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FABE2A96410900F18AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF62FAC72A96410900F18AD6 /* Myosotis_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62FAC82A96410900F18AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF62FAD12A96410900F18AD6 /* Myosotis_SwiftUIUITests.swift in Sources */,
+				FF62FAD32A96410900F18AD6 /* Myosotis_SwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF62FAC42A96410900F18AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF62FAB02A96410800F18AD6 /* Myosotis SwiftUI */;
+			targetProxy = FF62FAC32A96410900F18AD6 /* PBXContainerItemProxy */;
+		};
+		FF62FACE2A96410900F18AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF62FAB02A96410800F18AD6 /* Myosotis SwiftUI */;
+			targetProxy = FF62FACD2A96410900F18AD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF62FAD42A96410900F18AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF62FAD52A96410900F18AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FF62FAD72A96410900F18AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Myosotis SwiftUI/Myosotis_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Myosotis SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF62FAD82A96410900F18AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Myosotis SwiftUI/Myosotis_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Myosotis SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF62FADA2A96410900F18AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myosotis SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Myosotis SwiftUI";
+			};
+			name = Debug;
+		};
+		FF62FADB2A96410900F18AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myosotis SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Myosotis SwiftUI";
+			};
+			name = Release;
+		};
+		FF62FADD2A96410900F18AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Myosotis SwiftUI";
+			};
+			name = Debug;
+		};
+		FF62FADE2A96410900F18AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Myosotis-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Myosotis SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF62FAAC2A96410800F18AD6 /* Build configuration list for PBXProject "Myosotis SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF62FAD42A96410900F18AD6 /* Debug */,
+				FF62FAD52A96410900F18AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF62FAD62A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF62FAD72A96410900F18AD6 /* Debug */,
+				FF62FAD82A96410900F18AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF62FAD92A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF62FADA2A96410900F18AD6 /* Debug */,
+				FF62FADB2A96410900F18AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF62FADC2A96410900F18AD6 /* Build configuration list for PBXNativeTarget "Myosotis SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF62FADD2A96410900F18AD6 /* Debug */,
+				FF62FADE2A96410900F18AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF62FAA92A96410800F18AD6 /* Project object */;
+}
